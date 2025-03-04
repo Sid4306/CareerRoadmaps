@@ -1,13 +1,13 @@
+# Configure Netlify builds
 [build]
-command = "npm run build"
-publish = ".next"
+  command = "npm run build"
+  publish = ".next"
 
+# Configure the Next.js plugin
 [[plugins]]
-package = "@netlify/plugin-nextjs"
+  package = "@netlify/plugin-nextjs"
 
+# Set build environment variables
 [build.environment]
-<<<<<<< HEAD
-NEXT_USE_NETLIFY_EDGE = "true"
-=======
-NEXT_USE_NETLIFY_EDGE = "true"
->>>>>>> 9750ebbd5d5c587312dd17cf96690558101ed14b
+  NEXT_USE_NETLIFY_EDGE = "true"
+  NODE_VERSION = "18"
