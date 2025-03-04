@@ -1,9 +1,4 @@
 {
   "devDependencies": {
     "@netlify/plugin-nextjs": "^5.9.4"
-  }
-  "scripts": {
-    "build": "npm run build"
-  }
-
 }
