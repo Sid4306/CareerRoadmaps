@@ -6,4 +6,8 @@ publish = ".next"
 package = "@netlify/plugin-nextjs"
 
 [build.environment]
+<<<<<<< HEAD
 NEXT_USE_NETLIFY_EDGE = "true"
+=======
+NEXT_USE_NETLIFY_EDGE = "true"
+>>>>>>> 9750ebbd5d5c587312dd17cf96690558101ed14b
